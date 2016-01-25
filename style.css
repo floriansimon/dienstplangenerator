@@ -1,0 +1,171 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	font-family: 'Verdana', 'Helvetica', 'Helvetica Neue', sans-serif;
+	vertical-align: baseline;
+	background: transparent;
+}
+strong{
+	font-weight: 900;
+}
+#wrapper{
+	width: 1000px;
+	min-height: 300px;
+	background-color: #ccc;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 20px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+h1, h2{
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: .7em;
+}
+
+h3{
+	text-align: center;
+	font-size: 110%;
+}
+h2 span{
+	color: #333;
+	cursor: wait;
+}
+h2 span:hover{
+	color: #E00;
+}
+#dateSelector{
+	border: 1px solid gray;
+	height: 30px;
+	font-size: 80%;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+td{
+	padding: 5px;
+	background-color: transparent;
+	text-align: center;
+	vertical-align: middle;
+}
+th{
+	font-weight: 600;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	padding: 10px 0 10px 0;
+	font-size: 80%;
+}
+tr:first-child th{
+	border-top: none;
+}
+th.dateColumn{
+	width: 140px;
+	vertical-align: bottom;
+	text-align: center;
+	border-left: none !important;
+}
+td.dateColumn{
+	text-align: right;
+	border-left: none !important;
+}
+td{
+	border-left: 1px solid gray;
+}
+.dateColumn .weekday{
+	font-size: 70%;
+	display: block;
+}
+tr:nth-child(odd){
+	background-color: #CCC;
+}
+tr:nth-child(even){
+    background-color: #DDD;
+}
+tr:last-child th{
+	border-bottom: none;
+}
+.nameColumn{
+	min-width: 120px;
+	vertical-align: bottom;
+	text-align: center;
+}
+.spacerRow{
+	border-bottom: 1px solid gray;
+	padding: 0;
+}
+
+.number{
+	text-align: right;
+}
+
+.label{
+	font-size: 70%;
+	text-align: left;
+}
+
+.sum td:first-child{
+	border-left: none;
+}
+.sum td{
+	border-bottom: 1px solid gray;
+}
+.sum:last-child td{
+	border-bottom: none;
+}
+
+label{
+	font-size: 70%;
+	display: block;
+	text-align: left;
+	line-height: 20px;
+}
+input[type="checkbox"]{
+	clear: both;
+	float: left;
+}
+
+input[type="submit"]{
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	border: 1px solid green;
+	background-color: #DDD;
+	position: relative;
+	margin: 10px 10px 10px 0;
+	cursor: pointer;
+	border-radius: 2px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+input[type="submit"]:active{
+	top:1px;
+}
+
+.gyn{
+    color: white;
+    padding: 2px;
+    background-color: hotpink;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.chir{
+    color: white;
+    padding: 2px;
+    background-color: darkred;
+    border-radius: 5px;
+    margin-right: 2px;
+}
